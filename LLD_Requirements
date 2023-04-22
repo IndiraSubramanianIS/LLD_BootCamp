@@ -1,0 +1,72 @@
+BookMyShow-LLD Requirements
+
+Actors/Users of BookMyShow Application
+
+•	Customer/Client
+
+•	Partners
+->Theatre Partner
+->Live Event Partner
+->Restaurant Partner
+->Other Partner
+
+•	System- System Admin
+
+
+Actions performed by each actors/user
+
+Customer/Client 
+1.	Updates Location
+2.	Search
+o	Search by Movies
+o	Search by events
+o	Search by Offers etc. 
+      3.Book
+o	Select Movie, Date, ShowTime, Seats
+o	Make Payment
+     4.Track
+o	View booked tickets 
+o	Update booked tickets-Cancel
+o	Update user account settings etc.
+o	Update review and feedback
+
+Partners
+->Theatre Partner
+->Live Event Partner
+
+       1.Show Update
+o	Add the venue, name, location details.
+o	Add movies, shows, events with seat details.
+o	Updates the price of the show per seat.
+o	Updates the categories of the seats.
+o	Gets update from the System/App/Admin reg bookings payments (talks with system of BookmyShow)
+o	Gets reviews and feedback 
+       
+
+    Restaurant and Other partners
+
+1.	Update
+o	Add location, menu, dishes, etc. 
+
+
+System
+
+1.Onboard (Logins handled for Client /Partners)
+2.Verification of the Partners
+3.Notifications to both Client and Partners
+4.Payments and handling promo code 
+5.Feedback handling between client and partners.
+6.Handling of seats availability in Realtime basis to keep system updated by talking (communicating through API or service or another mode) with the partners.
+
+
+
+
+      
+
+
+
+
+
+
+
+
